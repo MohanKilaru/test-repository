@@ -6,7 +6,7 @@ describe('My First Test', () => {
     cy.url().should('include','/commands/actions')
 
     cy.get('.action-email')
-    .type('fake@email.com')
+    .type('fake@ema il.com')
     .should('have.value','fake@email.com')
   })
 })
